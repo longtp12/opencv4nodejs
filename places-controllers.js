@@ -35,23 +35,6 @@ const getPlaceById =  async(req, res, next) => {
   res.json({place: place.toObject({getters: true})})
 }
 
-// const getPlacesByUserId = async (req, res, next) => {
-//   const userId = req.params.uid;
-
-//   // let places;
-//   let userWithPlaces;
-//   try {
-//     userWithPlaces = await User.findById(userId).populate('places');
-//   } catch (err) {
-//     const error = new HttpError(
-//       'Fetching places failed, please try again later',
-//       500
-//     );
-//     return next(error);
-//   }
-
-
-
 
 const createPlace = async (req, res, next) => {
   const errors = validationResult(req);
