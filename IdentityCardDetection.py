@@ -67,8 +67,8 @@ for j,y in enumerate(myPicList):
 
             print(txt)
             myData.append(pytesseract.image_to_string(imgCrop,lang="vie"))
-            with open('dich.txt','a',encoding='utf-8') as f:
-                f.writelines(txt)
+#             with open('dich.txt','a',encoding='utf-8') as f:
+#                 f.writelines(txt)
 
 
 
