@@ -116,7 +116,7 @@ def upload_image():
         data1 = f1.read()
 
 
-        flash(txt)
+        flash(data1)
         return render_template('test.html', filename=filename)
     else:
         flash('Allowed image types are - png, jpg, jpeg, gif')
