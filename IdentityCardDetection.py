@@ -24,7 +24,7 @@ h,w,c = imgQ.shape
 
 orb = cv2.ORB_create(5000)
 kp1, des1 = orb.detectAndCompute(imgQ,None)
-# imgKp1 = cv2.drawKeypoints(imgQ,kp1,None)
+
 
 path =  'sample'
 myPicList = os.listdir(path)
@@ -32,7 +32,7 @@ print(myPicList)
 for j,y in enumerate(myPicList):
     img = cv2.imread(path + '/'+y)
 
-    # cv2.imshow('y', img)
+    
     kp2, des2 = orb.detectAndCompute(img, None)
     bf = cv2.BFMatcher(cv2.NORM_HAMMING)
     matches = bf.match(des2,des1)
@@ -60,7 +60,7 @@ for j,y in enumerate(myPicList):
 
         imgCrop = imgScan[r[0][1]:r[1][1], r[0][0]:r[1][0]]
 
-        # cv2.imshow(str(x), imgCrop)
+        
 
         if r[2] == 'text':
             txt = f'{r[3]} : {pytesseract.image_to_string(imgCrop,lang="vie")}'
@@ -80,6 +80,6 @@ for j,y in enumerate(myPicList):
 
 
 
-# # cv2.imshow('output1',imgKp1)
+
 cv2.imshow('output',imgQ)
 cv2.waitKey(0)
