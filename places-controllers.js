@@ -50,19 +50,8 @@ const getPlaceById =  async(req, res, next) => {
 //     return next(error);
 //   }
 
-//   // if (!places || places.length === 0) {
-//   if (!userWithPlaces || userWithPlaces.places.length === 0) {
-//     return next(
-//       new HttpError('Could not find places for the provided user id.', 404)
-//     );
-//   }
 
-//   res.json({
-//     places: userWithPlaces.places.map(place =>
-//       place.toObject({ getters: true })
-//     )
-//   });
-// }
+
 
 const createPlace = async (req, res, next) => {
   const errors = validationResult(req);
