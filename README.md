@@ -42,7 +42,7 @@ Check out <a href="https://medium.com/@muehler.v/node-js-opencv-for-face-recogni
 
 ### Face Landmarks with the OpenCV face module
 
-![facelandmarks](https://user-images.githubusercontent.com/31125521/39297394-af14ae26-4943-11e8-845a-a06cbfa28d5a.jpg)
+![facelandmarks](https://user-images.githubusercontent.com/31125521/39297394-af14ae26-4943-11e8-845a-a06cbfa28d5a.jpg
 
 ### Face Recognition with <a href="https://github.com/justadudewhohacks/face-recognition.js"><b>face-recognition.js</b></a>
 
