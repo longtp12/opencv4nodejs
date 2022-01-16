@@ -16,7 +16,7 @@ opencv4nodejs
 
 * **[Examples](#examples)**
 * **[How to install](#how-to-install)*
-* **[Usage with Docker](#usage-with-docker)**
+* **[Usage with Docker](#usage-with-docker)*
 * **[Usage with Electron](#usage-with-electron)**
 * **[Usage with NW.js](#usage-with-nwjs)**
 * **[Quick Start](#quick-start)**
