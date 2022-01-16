@@ -55,8 +55,7 @@ Check out <a href="https://medium.com/@muehler.v/simple-hand-gesture-recognition
 
 ![gesture-rec_sm](https://user-images.githubusercontent.com/31125521/30052864-41bd5680-9227-11e7-8a62-6205f3d99d5c.gif)
 
-### Object Recognition with Deep Neural Networks
-Check out <a href="https://medium.com/@muehler.v/node-js-meets-opencvs-deep-neural-networks-fun-with-tensorflow-and-caffe-ff8d52a0f072"><b>Node.js meets OpenCV’s Deep Neural Networks — Fun with Tensorflow and Caffe</b></a>.
+### 
 
 #### Tensorflow 
 
