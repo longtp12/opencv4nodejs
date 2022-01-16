@@ -18,7 +18,7 @@ roi = [[(410, 236), (768, 282), 'text', 'Số'],
 
 pytesseract.pytesseract.tesseract_cmd = 'D:\\Tesseract-OCR\\tesseract.exe'
 
-imgQ = cv2.imread('https://imgur.com/a/IxEePc1')
+imgQ = cv2.imread('cc.jpg')
 
 h,w,c = imgQ.shape
 
