@@ -1,8 +1,6 @@
 opencv4nodejs
 =============
 
-
-
 [![Build Status](https://travis-ci.org/justadudewhohacks/opencv4nodejs.svg?branch=master)](http://travis-ci.org/justadudewhohacks/opencv4nodejs)
 [![Build status](https://ci.appveyor.com/api/projects/status/cv3o65nrosh1udbb/branch/master?svg=true)](https://ci.appveyor.com/project/justadudewhohacks/opencv4nodejs/branch/master)
 [![Coverage](https://codecov.io/github/justadudewhohacks/opencv4nodejs/coverage.svg?branch=master)](https://codecov.io/gh/justadudewhohacks/opencv4nodejs)
@@ -25,7 +23,7 @@ opencv4nodejs
 * **[External Memory Tracking (v4.0.0)](#external-mem-tracking)**
 <a name="examples"></a>
 
-# Cap nhat
+# Update
 
 See <a href="https://github.com/justadudewhohacks/opencv4nodejs/tree/master/examples"><b>examples</b></a> for implementation.
 
@@ -62,7 +60,6 @@ Check out <a href="https://medium.com/@muehler.v/simple-hand-gesture-recognition
 ![husky](https://user-images.githubusercontent.com/31125521/32703295-f6b0e7ee-c7f3-11e7-8039-b3ada21810a0.jpg)
 ![car](https://user-images.githubusercontent.com/31125521/32703296-f6cea892-c7f3-11e7-8aaa-9fe48b88fe05.jpeg)
 ![banana](https://user-images.githubusercontent.com/31125521/32703297-f6e932ca-c7f3-11e7-9a66-bbc826ebf007.jpg)
-
 
 #### Single Shot Multibox Detector with COCO
 
@@ -357,7 +354,6 @@ const matAsBuffer = matBGR.getData();
 // get entire Mat data as JS array
 const matAsArray = matBGR.getDataAsArray();
 ```
-
 ### IO
 
 ``` javascript
@@ -418,7 +414,6 @@ while (!done) {
   done = key !== 255;
 }
 ```
-
 ### Useful Mat methods
 
 ``` javascript
@@ -567,5 +562,3 @@ Or directly in your code:
 process.env.OPENCV4NODEJS_DISABLE_EXTERNAL_MEM_TRACKING = 1
 const cv = require('opencv4nodejs')
 ```
-
-
