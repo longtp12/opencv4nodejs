@@ -20,7 +20,7 @@ opencv4nodejs
 * **[Usage with Electron](#usage-with-electron)**
 * **[Usage with NW.js](#usage-with-nwjs)**
 * **[Quick Start](#quick-start)**
-* **[Async API](#async-api)**
+* **[Async API](#async-api)*
 * **[With TypeScript](#with-typescript)**
 * **[External Memory Tracking (v4.0.0)](#external-mem-tracking)**
 <a name="examples"></a>
