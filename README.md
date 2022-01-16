@@ -15,7 +15,7 @@ opencv4nodejs
 **The ultimate goal of this project is to provide a comprehensive collection of nodejs bindings to the API of OpenCV and the OpenCV-contrib modules. To get an overview of the currently implemented bindings, have a look at the [type declarations](https://github.com/justadudewhohacks/opencv4nodejs/tree/master/lib/typings) of this package. Furthermore, contribution is highly appreciated. If you want to add missing bindings check out the <a href="https://github.com/justadudewhohacks/opencv4nodejs/tree/master/CONTRIBUTING.md"><b>contribution guide</b>.**
 
 * **[Examples](#examples)**
-* **[How to install](#how-to-install)**
+* **[How to install](#how-to-install)*
 * **[Usage with Docker](#usage-with-docker)**
 * **[Usage with Electron](#usage-with-electron)**
 * **[Usage with NW.js](#usage-with-nwjs)**
