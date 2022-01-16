@@ -1,0 +1,74 @@
+
+<html>
+<head>
+<title>Python Flask Upload and display image</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />        
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+
+></script>
+<style>
+    body, html {
+        height: 100%;
+      }
+  html, body {
+      padding: 0px;
+      margin: 0px;
+      background: url('static/HD-Desktop-Wallpaper-Blue-Wallpapers-Blue-Wallpaper-Blue-Background-Hd-26-1600x1000.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      overflow-x: scroll;
+  }
+  h1 {
+      color: white
+  }
+  h2 {
+    color: white
+}
+li {
+    color: white
+}
+div {
+    color: white
+}
+</style>
+</head>
+<body>
+<p><h1 align="center">Python Flask Upload and display image</h1></p>
+<div class="container">
+<div class="row">
+    <h2>Select a file to upload</h2>
+
+    {% if filename %}
+        <div>
+            <img src="{{ url_for('display_image', filename=filename) }}">
+        </div>
+    {% endif %}
+    <form method="post" action="/" enctype="multipart/form-data">
+        <dl>
+            <p>
+                <input type="file" name="file" class="form-control" autocomplete="off" required>
+            </p>
+        </dl>
+        <p>
+            <input type="submit" value="Submit" class="btn btn-info">
+        </p>
+    </form>
+    <p>
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+    </p>
+</div>
+</div>
+</body>
+</html>
