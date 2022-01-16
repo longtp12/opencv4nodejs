@@ -25,7 +25,7 @@ opencv4nodejs
 * **[External Memory Tracking (v4.0.0)](#external-mem-tracking)**
 <a name="examples"></a>
 
-# Examples
+# Cap nhat
 
 See <a href="https://github.com/justadudewhohacks/opencv4nodejs/tree/master/examples"><b>examples</b></a> for implementation.
 
@@ -58,7 +58,7 @@ Check out <a href="https://medium.com/@muehler.v/simple-hand-gesture-recognition
 ### Object Recognition with Deep Neural Networks
 Check out <a href="https://medium.com/@muehler.v/node-js-meets-opencvs-deep-neural-networks-fun-with-tensorflow-and-caffe-ff8d52a0f072"><b>Node.js meets OpenCV’s Deep Neural Networks — Fun with Tensorflow and Caffe</b></a>.
 
-#### Tensorflow Inception
+#### Tensorflow 
 
 ![husky](https://user-images.githubusercontent.com/31125521/32703295-f6b0e7ee-c7f3-11e7-8039-b3ada21810a0.jpg)
 ![car](https://user-images.githubusercontent.com/31125521/32703296-f6cea892-c7f3-11e7-8aaa-9fe48b88fe05.jpeg)
