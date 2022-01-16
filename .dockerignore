@@ -11,5 +11,5 @@ ci/coverage-report
 !data/Lenna.png
 !data/people.jpeg
 !data/traffic.mp4
-!data/text-models
+!data/text-modls
 !native-node-utils
