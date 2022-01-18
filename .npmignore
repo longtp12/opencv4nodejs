@@ -7,7 +7,7 @@ node_modules
 crash.log
 data
 test
-examples
+example
 .travis.yml
 doc
 coverage
