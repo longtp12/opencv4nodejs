@@ -1,4 +1,4 @@
-# Contribution Guide
+# Contribution
 
 First of all, any kind of contribution is highly appreciated, you don't have to be a pro in C++, neither am I. If you are totally new to native Node.js development with nan and would like to get started, you can have a look at my article series as a quick introduction:
 <a href="https://medium.com/netscape/tutorial-building-native-c-modules-for-node-js-using-nan-part-1-755b07389c7c"><b>Tutorial to Native Node.js Modules with C++</b></a>
