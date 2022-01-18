@@ -562,6 +562,3 @@ Or directly in your code:
 process.env.OPENCV4NODEJS_DISABLE_EXTERNAL_MEM_TRACKING = 1
 const cv = require('opencv4nodejs')
 ```
-  km
--------
----------------------
