@@ -6,7 +6,7 @@ bin
 node_modules
 crash.log
 data
-tes
+test
 example
 .travis.yml
 doc
